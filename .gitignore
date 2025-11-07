@@ -1,0 +1,27 @@
+# Sensitive files
+**/secrets.conf
+**/token
+**/password
+**/*.pem
+**/*.key
+
+# Cache and temporary files
+**/.cache/
+**/cache/
+**/*.log
+**/*.tmp
+**/__pycache__/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Local overrides
+*.local
