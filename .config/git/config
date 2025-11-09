@@ -28,3 +28,4 @@
 	autoupdate = true        # Apply stored conflict resolutions automatically
 [user]
 	email = alebra88@gmail.com
+	name = Alexander Brandt
