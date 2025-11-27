@@ -1,0 +1,174 @@
+{
+  "actions" : [
+    {
+      "key" : "t",
+      "type" : "application",
+      "value" : "/Applications/Alacritty.app"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "s",
+          "type" : "application",
+          "value" : "/Applications/Safari.app"
+        },
+        {
+          "key" : "e",
+          "type" : "application",
+          "value" : "/Applications/Mail.app"
+        },
+        {
+          "key" : "i",
+          "type" : "application",
+          "value" : "/System/Applications/Music.app"
+        },
+        {
+          "key" : "m",
+          "type" : "application",
+          "value" : "/Applications/Messages.app"
+        }
+      ],
+      "key" : "o",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "e",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
+        },
+        {
+          "key" : "p",
+          "type" : "url",
+          "value" : "raycast://confetti"
+        },
+        {
+          "key" : "c",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/open-camera"
+        }
+      ],
+      "key" : "r",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "t",
+          "type" : "command",
+          "value" : ""
+        },
+        {
+          "key" : "a",
+          "type" : "application",
+          "value" : "/System/Applications/Messages.app"
+        }
+      ],
+      "iconPath" : "/System/Applications/Messages.app",
+      "key" : "m",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "y",
+          "type" : "url",
+          "value" : "youtube.com"
+        },
+        {
+          "key" : "f",
+          "type" : "url",
+          "value" : "facebook.com"
+        },
+        {
+          "key" : "a",
+          "type" : "application",
+          "value" : "/Applications/Arc.app"
+        },
+        {
+          "key" : "g",
+          "type" : "url",
+          "value" : "https://mail.google.com/mail/u/0/#inbox/FMfcgzQcqlDgZTZTpwCbPctNNhVXNRQd"
+        }
+      ],
+      "iconPath" : "/Applications/Arc.app",
+      "key" : "b",
+      "type" : "group"
+    },
+    {
+      "key" : "æ",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/clipboard-history/clipboard-history"
+    },
+    {
+      "actions" : [
+        {
+          "key" : ".",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/lock-screen"
+        }
+      ],
+      "key" : "l",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "p",
+          "type" : "url",
+          "value" : "raycast://extensions/thomas/spotify-controls/pause"
+        },
+        {
+          "key" : "space",
+          "type" : "url",
+          "value" : "raycast://extensions/thomas/spotify-controls/play"
+        },
+        {
+          "key" : "a",
+          "type" : "application",
+          "value" : "/Applications/Spotify.app"
+        },
+        {
+          "key" : "n",
+          "type" : "url",
+          "value" : "raycast://extensions/thomas/spotify-controls/nextTrack"
+        }
+      ],
+      "iconPath" : "/Applications/Spotify.app",
+      "key" : "s",
+      "type" : "group"
+    },
+    {
+      "key" : ",",
+      "type" : "application",
+      "value" : "/System/Applications/System Settings.app"
+    },
+    {
+      "key" : "a",
+      "type" : "application",
+      "value" : "/Applications/Claude.app"
+    },
+    {
+      "key" : "v",
+      "type" : "application",
+      "value" : "/Applications/Visual Studio Code.app"
+    },
+    {
+      "key" : "1",
+      "type" : "application",
+      "value" : "/Applications/1Password.app"
+    },
+    {
+      "key" : "e",
+      "type" : "application",
+      "value" : "/System/Library/CoreServices/Finder.app"
+    },
+    {
+      "key" : "f",
+      "type" : "application",
+      "value" : "/Applications/Messenger.app"
+    }
+  ],
+  "type" : "group"
+}
