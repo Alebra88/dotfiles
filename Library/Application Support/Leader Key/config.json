@@ -8,32 +8,6 @@
     {
       "actions" : [
         {
-          "key" : "s",
-          "type" : "application",
-          "value" : "/Applications/Safari.app"
-        },
-        {
-          "key" : "e",
-          "type" : "application",
-          "value" : "/Applications/Mail.app"
-        },
-        {
-          "key" : "i",
-          "type" : "application",
-          "value" : "/System/Applications/Music.app"
-        },
-        {
-          "key" : "m",
-          "type" : "application",
-          "value" : "/Applications/Messages.app"
-        }
-      ],
-      "key" : "o",
-      "type" : "group"
-    },
-    {
-      "actions" : [
-        {
           "key" : "e",
           "type" : "url",
           "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
@@ -168,6 +142,22 @@
       "key" : "f",
       "type" : "application",
       "value" : "/Applications/Messenger.app"
+    },
+    {
+      "key" : "o",
+      "type" : "application",
+      "value" : "/Applications/Obsidian.app"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "u",
+          "type" : "command",
+          "value" : ""
+        }
+      ],
+      "key" : "d",
+      "type" : "group"
     }
   ],
   "type" : "group"
