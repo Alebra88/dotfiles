@@ -152,8 +152,8 @@
       "actions" : [
         {
           "key" : "u",
-          "type" : "command",
-          "value" : ""
+          "type" : "url",
+          "value" : "~/dotfiles/dump"
         }
       ],
       "key" : "d",
