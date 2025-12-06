@@ -31,7 +31,17 @@
         {
           "key" : "t",
           "type" : "command",
-          "value" : ""
+          "value" : "open sms://+4561703686"
+        },
+        {
+          "key" : "l",
+          "type" : "command",
+          "value" : "open sms://+4528595100"
+        },
+        {
+          "key" : "m",
+          "type" : "command",
+          "value" : "open sms://+4551322992"
         },
         {
           "key" : "a",
@@ -119,11 +129,6 @@
       "value" : "/System/Applications/System Settings.app"
     },
     {
-      "key" : "a",
-      "type" : "application",
-      "value" : "/Applications/Claude.app"
-    },
-    {
       "key" : "v",
       "type" : "application",
       "value" : "/Applications/Visual Studio Code.app"
@@ -158,6 +163,40 @@
       ],
       "key" : "d",
       "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "h",
+          "type" : "application",
+          "value" : "/Applications/GitHub Desktop.app"
+        }
+      ],
+      "iconPath" : "/Applications/GitHub Desktop.app",
+      "key" : "g",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "c",
+          "type" : "application",
+          "value" : "/Applications/Claude.app"
+        },
+        {
+          "key" : "g",
+          "type" : "command",
+          "value" : "gemini"
+        }
+      ],
+      "iconPath" : "/Applications/Claude.app",
+      "key" : "a",
+      "type" : "group"
+    },
+    {
+      "key" : "p",
+      "type" : "application",
+      "value" : "/System/Applications/Photos.app"
     }
   ],
   "type" : "group"
