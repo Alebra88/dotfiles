@@ -4,45 +4,6 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Vial Layer 1 (Hold Space)",
-                        "enabled": false,
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "identifiers": {
-                                            "is_keyboard": true,
-                                            "is_pointing_device": false
-                                        },
-                                        "type": "device_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "spacebar",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "vial_layer_1_active",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [{ "key_code": "spacebar" }],
-                                "to_if_held_down": [
-                                    {
-                                        "set_variable": {
-                                            "name": "vial_layer_1_active",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "manipulators": [
                             {
                                 "description": "Caps Lock: tap=F13, hold=cmd, double-tap=cmd+space",
