@@ -6,3 +6,5 @@
 [user]
 	name = Alebra88
 	email = 43849662+Alebra88@users.noreply.github.com
+[credential]
+	helper = !gh auth git-credential

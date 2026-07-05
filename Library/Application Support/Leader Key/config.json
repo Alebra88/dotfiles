@@ -3,7 +3,7 @@
     {
       "key" : "t",
       "type" : "application",
-      "value" : "/Applications/Warp.app"
+      "value" : "/Applications/Alacritty.app"
     },
     {
       "actions" : [
@@ -42,6 +42,11 @@
           "key" : "m",
           "type" : "command",
           "value" : "open sms://+4551322992"
+        },
+        {
+          "key" : "e",
+          "type" : "command",
+          "value" : "open sms://+4551481503"
         },
         {
           "key" : "a",
@@ -146,7 +151,7 @@
     {
       "key" : "f",
       "type" : "application",
-      "value" : "/Applications/Messenger.app"
+      "value" : "/Applications/Caprine.app"
     },
     {
       "key" : "o",
